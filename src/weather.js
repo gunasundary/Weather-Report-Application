@@ -7,6 +7,7 @@ function Weather() {
     const [weather,setweather]=useState("")
     const [temp,settemp]=useState("")
     const [desc,setdesc]=useState("")
+   //const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
 
     function handleweather(evt)
     {
